@@ -26,14 +26,14 @@ s.description      = <<-DESC
 
   s.homepage         = 'https://github.com/jw10126121/JWTools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = 'MIT'
   s.author           = { 'jw10126121' => '10126121@qq.com' }
   s.source           = { :git => 'https://github.com/jw10126121/JWTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'JWTools/Classes/**/*'
+  s.source_files = "JWTools/*"
   
   # s.resource_bundles = {
   #   'JWTools' => ['JWTools/Assets/*.png']
