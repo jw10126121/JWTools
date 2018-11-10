@@ -1,7 +1,7 @@
 PODS:
-  - JWTools (0.1.1):
-    - JWTools/JWToolsCore (= 0.1.1)
-  - JWTools/JWToolsCore (0.1.1)
+  - JWTools (0.1.2):
+    - JWTools/JWToolsCore (= 0.1.2)
+  - JWTools/JWToolsCore (0.1.2)
 
 DEPENDENCIES:
   - JWTools (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JWTools: dae939ce155b07432af90694884e8210a9480996
+  JWTools: c384339e1b56f8bd1f16ac3500196114c75b144b
 
 PODFILE CHECKSUM: 5ebe2400050b46a8f0631820e9266281fdb54377
 

@@ -45,6 +45,14 @@ Pod::Spec.new do |s|
         
     end
     
+    s.subspec 'JWUIHelper' do | sss |
+        
+        sss.source_files  = 'JWTools/Classes/JWUIHelper/*'
+        sss.dependency 'JWTools/JWToolsCore'
+        sss.framework     = 'UIKit'
+
+    end
+    
     
 end
 

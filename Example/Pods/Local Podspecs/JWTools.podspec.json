@@ -1,6 +1,6 @@
 {
   "name": "JWTools",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "一些方便开发的类",
   "description": "\"本人收集和整理的一些方便开发的类\"\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
   "homepage": "https://github.com/jw10126121/JWTools",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/jw10126121/JWTools.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -20,8 +20,18 @@
   "subspecs": [
     {
       "name": "JWToolsCore",
-      "source_files": "JWTools/Classes/JWToolsCore/",
+      "source_files": "JWTools/Classes/JWToolsCore/*",
       "frameworks": "Foundation"
+    },
+    {
+      "name": "JWUIHelper",
+      "source_files": "JWTools/Classes/JWUIHelper/*",
+      "dependencies": {
+        "JWTools/JWToolsCore": [
+
+        ]
+      },
+      "frameworks": "UIKit"
     }
   ]
 }
