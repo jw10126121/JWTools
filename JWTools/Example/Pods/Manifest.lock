@@ -1,0 +1,16 @@
+PODS:
+  - JWTools (0.1.0)
+
+DEPENDENCIES:
+  - JWTools (from `../`)
+
+EXTERNAL SOURCES:
+  JWTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JWTools: c5550b51a9daf2c652252fbb8ca982eaba31fe7a
+
+PODFILE CHECKSUM: 5ebe2400050b46a8f0631820e9266281fdb54377
+
+COCOAPODS: 1.6.0.beta.1

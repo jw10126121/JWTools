@@ -1,0 +1,6 @@
+framework module JWTools {
+  umbrella header "JWTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
