@@ -33,7 +33,11 @@ s.description      = <<-DESC
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = "JWTools/*"
+  #s.source_files = "JWTools/*"
+     s.subspec 'JWToolsCore' do |ss|
+        ss.source_files = "JWTools/*"
+        #sub.public_header_files = 'Pod/Classes/WToolsKit/**/*.h'
+    end
   
   # s.resource_bundles = {
   #   'JWTools' => ['JWTools/Assets/*.png']
