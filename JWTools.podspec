@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'JWTools'
-    s.version          = '0.1.3'
+    s.version          = '0.1.4'
     s.summary          = '一些方便开发的类'
     
     # This description is used to generate tags and improve search results.
@@ -33,27 +33,31 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '9.0'
     
-    s.default_subspec   = 'JWToolsCore'
     s.swift_version     = '4.2'
     
-    s.subspec 'JWToolsCore' do | ss |
-        
-        
-        ss.source_files  = 'JWTools/Classes/JWToolsCore/*'
-        ss.framework     = 'Foundation'
-        
-        
-    end
-    
-    s.subspec 'JWUIHelper' do | sss |
-        
-        sss.source_files  = 'JWTools/Classes/JWUIHelper/*'
-        sss.dependency 'JWTools/JWToolsCore'
-        sss.framework     = 'UIKit'
+    s.source_files = 'JWTools/Classes/**/*'
 
-    end
-    
+#    s.default_subspec   = 'JWUIHelper'
+#
+#    s.subspec 'JWUIHelper' do |ss|
+#
+#        ss.source_files  = 'JWTools/Classes/JWUIHelper/*'
+##        ss.public_header_files  = 'JWTools/Classes/JWUIHelper/*'
+#        ss.dependency 'JWTools/JWToolsCore'
+#        ss.framework     = 'UIKit'
+#
+#    end
+#
+#    s.subspec 'JWToolsCore' do |ss|
+#
+#        ss.source_files  = 'JWTools/Classes/JWToolsCore/*'
+##        ss.public_header_files  = 'JWTools/Classes/JWToolsCore/*'
+#        ss.framework     = 'Foundation'
+#
+#    end
+
+
+
     
 end
-
 
